@@ -1,0 +1,105 @@
+@font-face {
+    font-family: channel-webfont;
+    src: url('fonts/channel-webfont.ttf'), url('fonts/channel-webfont.eot');
+}
+
+@font-face {
+    font-family: Caitlin;
+    src: url('fonts/Caitlin.ttf'),
+}
+
+@font-face {
+    font-family: AB_Exp_by_III_wildcard_III;
+    src: url('fonts/AB_Exp_by_III_wildcard_III.ttf'),
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(images/bg_motif.gif);
+    
+}
+
+header {
+    height: 70px;
+    background-color: rgb(0, 0, 0);
+    border-bottom: white solid 1px;
+    padding: 0px;
+}
+
+#logo {
+    height: 250px;
+    width: 80px;
+    margin-top: 56px;
+    margin-left: 350px;
+}
+
+nav {
+    height: 100%;
+    float: right;
+    margin-left: 30px;
+}
+
+.liste {
+    height: 100%;
+}
+
+.liste a {
+    color: white;
+    font-family: channel-webfont;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.liste li {
+    display: inline-block;
+    padding: 7px 50px 0px 0px;
+}
+
+.liste li :hover {
+    color: red;
+}
+
+.liste li ul {
+    position: absolute;
+    visibility: hidden;
+}
+
+.liste li ul li {
+    height: 50px;
+    width: 220px;
+    display: block;
+    background-color: rgb(0, 0, 0);
+    border: 1px white;
+    border: white solid 1px;
+    padding: 0px 15px;
+}
+
+.liste li:hover>ul {
+    visibility: visible;
+}
+section 
+{
+    width: 900px;
+    height: 900px;
+    margin: auto;
+    background-color: rgba(96, 125, 139, 0.5);
+    text-align: center;
+    
+}
+#raisin
+{
+    width: 850px;
+    margin-top: 20px;
+    
+}
+#main_text
+{
+    width: 850px;
+    height: 35px;
+    font-family: comic sans ms;
+    font-size: 25px;
+    color: rgb(83, 10, 20);
+    background-color: white;
+    margin: 0px 0px 0px 25px;
+}
